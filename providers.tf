@@ -36,6 +36,14 @@ terraform {
       source = "hashicorp/http"
       version = "3.2.1"
     }
+    ansible = {
+      source = "ansible/ansible"
+      version = "1.1.0"
+    }
+    cml2 = {
+      source = "CiscoDevNet/cml2"
+      version = "0.7.0"
+    }
   }
   required_version = "1.3.4"
 }
